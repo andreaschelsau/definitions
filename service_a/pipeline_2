@@ -1,8 +1,0 @@
-pool:
-  name: Default
-  vmImage: windows-latest
-  
-steps:
-- script: echo Hello, world!
-    echo $(var_1)
-  displayName: 'Run a one-line script'
